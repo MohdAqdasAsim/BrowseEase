@@ -1,0 +1,22 @@
+[
+  {
+    "term": "\" \"",
+    "use": "Opens a new tab for the searched term.",
+    "example": "search random images"
+  },
+  {
+    "term": "/ or \\",
+    "use": "Opens a new window for the searched term.",
+    "example": "search / random images"
+  },
+  {
+    "term": "!",
+    "use": "Opens the URL typed.",
+    "example": "search ! www.youtube.com"
+  },
+  {
+    "term": "-y or --y or -Y or --Y",
+    "use": "Opens a new youtube tab for the searched term.",
+    "example": "search -y random images"
+  }
+]

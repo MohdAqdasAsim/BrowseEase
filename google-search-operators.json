@@ -1,0 +1,137 @@
+[
+  {
+    "term": "\"\"",
+    "use": "Search for results that mention a word or phrase.",
+    "example": "\"steve jobs\""
+  },
+  {
+    "term": "OR",
+    "use": "Search for results related to X or Y.",
+    "example": "jobs OR gates"
+  },
+  {
+    "term": "|",
+    "use": "Same as OR:",
+    "example": "jobs | gates"
+  },
+  {
+    "term": "AND",
+    "use": "Search for results related to X and Y.",
+    "example": "jobs AND gates"
+  },
+  {
+    "term": "-",
+    "use": "Search for results that don\u2019t mention a word or phrase.",
+    "example": "jobs -apple"
+  },
+  {
+    "term": "*",
+    "use": "Wildcard matching any word or phrase.",
+    "example": "steve * apple"
+  },
+  {
+    "term": "()",
+    "use": "Group multiple searches.",
+    "example": "(ipad OR iphone) apple"
+  },
+  {
+    "term": "define:",
+    "use": "Search for the definition of a word or phrase.",
+    "example": "define:entrepreneur"
+  },
+  {
+    "term": "cache:",
+    "use": "Find the most recent cache of a webpage.",
+    "example": "cache:apple.com"
+  },
+  {
+    "term": "filetype:",
+    "use": "Search for particular types of files (e.g., PDF).",
+    "example": "apple filetype:pdf"
+  },
+  {
+    "term": "ext:",
+    "use": "Same as filetype:",
+    "example": "apple ext:pdf"
+  },
+  {
+    "term": "site:",
+    "use": "Search for results from a particular website.",
+    "example": "site:apple.com"
+  },
+  {
+    "term": "related:",
+    "use": "Search for sites related to a given domain.",
+    "example": "related:apple.com"
+  },
+  {
+    "term": "intitle:",
+    "use": "Search for pages with a particular word in the title tag.",
+    "example": "intitle:apple"
+  },
+  {
+    "term": "allintitle:",
+    "use": "Search for pages with multiple words in the title tag.",
+    "example": "allintitle:apple iphone"
+  },
+  {
+    "term": "inurl:",
+    "use": "Search for pages with a particular word in the URL.",
+    "example": "inurl:apple"
+  },
+  {
+    "term": "allinurl:",
+    "use": "Search for pages with multiple words in the URL.",
+    "example": "allinurl:apple iphone"
+  },
+  {
+    "term": "intext:",
+    "use": "Search for pages with a particular word in their content.",
+    "example": "intext:apple iphone"
+  },
+  {
+    "term": "allintext:",
+    "use": "Search for pages with multiple words in their content.",
+    "example": "allintext:apple iphone"
+  },
+  {
+    "term": "weather:",
+    "use": "Search for the weather in a location.",
+    "example": "weather:san francisco"
+  },
+  {
+    "term": "stocks:",
+    "use": "Search for stock information for a ticker.",
+    "example": "stocks:aapl"
+  },
+  {
+    "term": "map:",
+    "use": "Force Google to show map results.",
+    "example": "map:silicon valley"
+  },
+  {
+    "term": "movie:",
+    "use": "Search for information about a movie.",
+    "example": "movie:steve jobs"
+  },
+  {
+    "term": "in",
+    "use": "Convert one unit to another.",
+    "example": "$329 in GBP"
+  },
+  {
+    "term": "source:",
+    "use": "Search for results from a particular source in Google News.",
+    "example": "apple source:the_verge"
+  },
+  {
+    "term": "before:",
+    "use": "Search for results from before a particular date.",
+    "example": "apple before:2007-06-29"
+  },
+  {
+    "term": "after:",
+    "use": "Search for results from after a particular date.",
+    "example": "apple after:2007-06-29"
+  }
+]
