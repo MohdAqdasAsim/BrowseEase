@@ -63,10 +63,24 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+1. Python
   ```sh
-  npm install npm@latest -g
+  # For Windows
+  winget install Python.Python
+
+  # For macOS
+  brew install python
+
+  # For Linux (Debian-based)
+  sudo apt update
+  sudo apt install python3
   ```
+
+2. After installation, you can verify that Python is installed by running:
+   ```sh
+   python --version  # or python3 --version on some systems
+   ```
 
 ### Installation
 
